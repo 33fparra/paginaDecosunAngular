@@ -1,0 +1,185 @@
+:host {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  align-items: center center;
+  justify-content: center center;
+}
+body {
+    padding: 0.5rem 1rem;
+}  
+
+.bg-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #8294a6;
+  z-index: -1;
+  display: flex;
+  overflow: hidden;
+  filter: opacity(0.8);
+}
+.bg-box div {
+  flex: 1;
+  margin: 0 0.3rem;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border-radius: 0.3rem;
+}
+.bg-box .bg1 {
+  background-image: url(/assets/img/foto4decosun.jpg);
+  background-position: left center;
+  margin-top: 1.5rem;
+}
+.bg-box .bg2 {
+  background-image: url(/assets/img/foto2decosun.jpg);
+  background-position: right center;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  flex: 1;
+  padding: 0.5rem;
+  color: #4a76a3;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 0.15rem;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  text-align: center;
+  margin: 1.3rem 5rem;
+}
+.form label {
+  display: block;
+  font-weight: bold;
+}
+
+.form input:focus, .form input:focus-within {
+  outline: none;
+  box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.5);
+}
+.form ion-icon {
+  font-size: 1.2em;
+}
+.form .input-box {
+  position: relative;
+}
+.form .prefix {
+  position: absolute;
+  color: lightgrey;
+  top: 0;
+  bottom: 0;
+  left: 0.2rem;
+  margin: auto;
+}
+.form .switch-btn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0.2rem;
+  margin: auto;
+  cursor: pointer;
+}
+.form .send-btn {
+  display: inline-block;
+  padding: 0.1rem 0.3rem;
+  color: #fff;
+  background-color: #4a76a3;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.form .send-btn ion-icon {
+  vertical-align: middle;
+  display: flex;
+}
+
+img{
+    display: flex;
+    align-items: center;
+}
+.bajologo{
+    color: #00345F;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 0px !important;
+}
+.frase1{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px !important;
+    padding-bottom: 0px !important;
+}
+.frase2{
+    color:#00345F;
+    font-size: 21px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+/* .mapeo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+.izquierda1{
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: flex;
+    font-weight: 800;
+}
+.izquierda1:hover{
+    color:#4a76a3;
+}
+
+.mapa{
+    display: flex;
+    margin-right: 10px;
+}
+
+.mapa > svg{
+    height: 240px;    
+    width: auto;
+}
+.derecha{
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: flex;
+    font-weight: 800;
+}
+.izquierda2{
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: flex;
+    font-weight: 800;
+}
+
+.rnorte.hovered * {
+    fill: #00B1FF !important;
+    fill-opacity: 1;
+}
+
+.rcentro.hovered {
+    fill: #00B1FF !important;
+    fill-opacity: 1;
+}
+
+.rsur.hovered * {
+    fill: #00B1FF !important;
+    fill-opacity: 1;
+}
+
+a.hovered {
+    text-shadow: 0px 10px 10px #00B1FF;
+}
+

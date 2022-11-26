@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(100vw / 1600 * 100);
+}
+@media (max-width: 768px) {
+  html {
+    font-size: calc(100vw / 768 * 100);
+  }
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: "Recursive", sans-serif;
+  font-size: 0.16rem;
+  /* position: relative; */
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  z-index: 1;
+}
+a{
+    text-decoration: none !important;
+    color: #00345F !important;
+}
+a :hover{
+    color: #466c8a !important;
+}
+
+app-root {
+    flex: 1;
+}
